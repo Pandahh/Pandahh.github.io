@@ -25,6 +25,12 @@ img {
 	border-color:black;
 }
 
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto
+}
+
 a:link {
     color:#6482B6;
 }
@@ -74,8 +80,10 @@ table, th, td{
 	padding:5px;
 }
 
-.center {
-	display:block;
-	margin-left:auto;
-	margin-right:auto
+ul {
+	list-style-type:circle;
+}
+
+li {
+	font-size:20px;
 }
