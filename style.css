@@ -1,5 +1,5 @@
 body {
-	
+	background-color:#274f91;
 }
 
 h1 {
@@ -17,15 +17,16 @@ p {
 }
 
 img {
-	
+	border-style:solid;
+	border-color:#163A76;
 }
 
 a:link {
-    color: green;
+    color:#6482B6;
 }
 
 a:visited {
-    color: green;
+    color:#6482B6;
 }
 
 a:hover {
@@ -33,7 +34,7 @@ a:hover {
 }
 
 a:active {
-    color: green;
+    color:#6482B6;
 }
 
 table, th, td {
