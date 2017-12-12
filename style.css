@@ -16,6 +16,10 @@ p {
 	font-size:20px;
 }
 
+hr {
+	border-color:black;
+}
+
 img {
 	border-style:solid;
 	border-color:black;
