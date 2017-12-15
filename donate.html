@@ -1,0 +1,38 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>Pretty Kitty - Donate</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--navigation-->
+<table>
+<tr>
+	<td><a class="nav" href="index.html">Home</a></td>
+	<td><a class="nav" href="collection.html">Collection</a></td>
+	<td><a class="nav" href="memes.html">Memes</a></td>
+	<td><a class="active" href="donate.html">Donate</a></td>
+</tr>
+</table>
+
+<h1>Donate</h1>
+<p>This website doesn't run itself. We need to pay money.... and like... stuff and things... yeah.<br>
+So give us your money.<br>
+Please.<br><br>~Noah</p>
+
+<form>
+	<button class="button" onclick="donate()">DONATE</button>
+</form>
+<script>
+	function donate() {
+	
+		var name = prompt("Please enter your name:", "Name");
+		var amt = prompt("Please enter the amount you want to donate:", "Name");
+		var txt = "SKADADDLE SKADIDDLE " + name +"! you just donated $" + amt + " to Pretty Kitty!"
+		alert(txt);
+	}
+</script>
+
+</body>
+</html>

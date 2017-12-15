@@ -80,10 +80,29 @@ table, th, td{
 	padding:5px;
 }
 
+td {
+	background-color:ffffff;
+}
+
 ul {
 	list-style-type:circle;
 }
 
 li {
 	font-size:20px;
+}
+
+li.genre {
+	font-size:30px;
+}
+
+.button {
+    background-color:#ffffff;
+    border:none;
+    color:6482B6;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:30px;
 }
